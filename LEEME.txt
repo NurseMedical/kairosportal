@@ -1,0 +1,22 @@
+KAIROS SALUD — PROTOTIPO DE PLATAFORMA DE GESTIÓN
+
+Abrí index.html en un navegador moderno. No requiere instalación ni servidor.
+
+Esta es una maqueta funcional de interacción, NO una aplicación clínica operativa.
+- Pacientes, profesionales y turnos: totalmente ficticios.
+- Permite añadir y cancelar turnos durante la sesión y detecta superposiciones por profesional en la propia sesión.
+- No guarda cambios tras recargar, no tiene servidor ni conecta la web pública.
+- No envía emails ni WhatsApp, no realiza videollamadas, no emite recetas válidas, no realiza firmas y no almacena historias clínicas reales.
+- No debe usarse para ingresar datos personales ni datos de salud.
+
+PARA CONVERTIRLO EN SOFTWARE REAL
+1. Servidor + base de datos transaccional + API compartida con sitio público.
+2. Autenticación robusta, MFA, autorización por rol y por paciente, bitácora inalterable de accesos.
+3. Agenda transaccional con bloqueos anti-doble-reserva por profesional y consultorio.
+4. Historia clínica con registro de autoría, evoluciones firmadas, adjuntos, backup cifrado y políticas de conservación.
+5. Integración correo + WhatsApp oficial con preferencias, consentimiento y trazabilidad.
+6. Recetas/órdenes con firmas, matrículas y requisitos regulatorios argentinos aplicables.
+7. Videoconsultas seguras y consentimiento electrónico verificable.
+8. Revisión legal, privacidad, ciberseguridad y pruebas de penetración antes de producción.
+
+Diseño: identidad KAIROS, azul #567ebd, blanco, azul oscuro y tonos suaves.
